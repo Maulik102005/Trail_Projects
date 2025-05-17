@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.container{
+    margin-top: 10px;
+    height: 70vh;
+    display:flex;
+    justify-content:center;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    
+}
+.box:disabled{
+    background-color: #694d75;
+     cursor: not-allowed;    
+}
+
+.reset{
+    background: hsla(33, 100%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 0.3rem;
+    border:none;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+    font-size: 2vmin;
+}
+
+#New{
+    background: hsla(33, 100%, 53%, 1);
+
+background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 0.3rem;
+    border:none;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+    font-size: 2vmin;
+    margin-bottom: 3px;
+}
+
+#msg{
+    color:#ffffc7;
+    font-size: 6vmin;
+}
+
+.hide{
+    display: none;;
+}
